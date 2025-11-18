@@ -1,4 +1,4 @@
-### Password Generator
+# Password Generator
 
 A simple, interactive password generator built with HTML, CSS, and JavaScript. Generate strong, secure passwords with a single click and customize your experience for maximum security.
 
@@ -39,7 +39,7 @@ The app is simple and intuitive:
 
 CSS uses the Karla font from Google Fonts and a .thick-line divider for style
 
-# Built With
+## Built With
 
 HTML5
 
