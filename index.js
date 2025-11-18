@@ -6,7 +6,7 @@ const choiceOne = document.getElementById("choice-one");
 const choiceTwo = document.getElementById("choice-two");
 const resetEl = document.getElementById("reset-el");
 
-//generate the passwords
+//generate passwords
 const getPasswords = () => {
     let passwordOne = ""
     let passwordTwo = ""
@@ -19,13 +19,12 @@ const getPasswords = () => {
 }
 generateEl.addEventListener("click", getPasswords);
 
-//copy the password
+//copy password
 choiceOne.addEventListener("click", () => {
     navigator.clipboard.writeText(choiceOne.textContent);
     alert("Password 1 copied!");
     }
 )
-
 choiceTwo.addEventListener("click",() => {
     navigator.clipboard.writeText(choiceOne.textContent);
     alert("Password 2 copied!");
@@ -36,3 +35,4 @@ resetEl.addEventListener("click", ()=> {
     choiceOne.textContent = ""
     choiceTwo.textContent = ""
 })
+
