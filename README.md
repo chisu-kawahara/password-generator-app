@@ -1,8 +1,11 @@
-## Password Generator
+### Password Generator
 
 A simple, interactive password generator built with HTML, CSS, and JavaScript. Generate strong, secure passwords with a single click and customize your experience for maximum security.
 
-# Features
+## Demo
+Try it live: https://chisu-kawahara.github.io/password-generator-app/
+
+## Features
 
 ✅ Generate two random passwords at a time
 
@@ -12,23 +15,23 @@ A simple, interactive password generator built with HTML, CSS, and JavaScript. G
 
 ✅ Responsive design with modern fonts and styling
 
-# Usage
+## Usage
 
 The app is simple and intuitive:
 
-Click the Generate Passwords button
+1. Click the Generate Passwords button
 
-View two randomly generated passwords in the display area
+2. View two randomly generated passwords in the display area
 
-Click the Clear button to reset the display
+3. Click the Clear button to reset the display
 
-Copy passwords manually for use in accounts or applications
+4. Copy passwords manually for use in accounts or applications
 
-HTML Structure Highlights:
+## HTML Structure Highlights:
 
 #generate-el → Button to generate passwords
 
-#choice-one & #choice-two → Sections displaying generated passwords
+#choice-one & #choice-two → Sections displaying generatesd passwords
 
 #reset-el → Button to clear passwords
 
